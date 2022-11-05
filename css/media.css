@@ -1,0 +1,15 @@
+@media(max-width:400px){
+    .content p{
+        line-height: 40px;
+        font-weight: 500;
+        font-size: 12px;
+    }
+    h1{
+        font-size: 15px;
+    }
+    p{
+        word-spacing:2px ;
+        line-height: 20px;
+       text-align: justify;
+    }
+}

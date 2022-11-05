@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    font-family: 'Cairo', sans-serif;
+}
+.contenar{
+    width: 70%;
+    margin: auto;
+    padding-top: 50px;
+}
+/*******************************************/
+.page{
+    width: 100%;
+}
+.content{
+    width: 100%;
+}
+.content h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.content p{
+    line-height: 40px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.content p span{
+    font-weight: bold;
+}
+#wrap {
+	width:auto;
+	max-width:800px
+}
+#frontphoto {
+	width:100%;
+	height:auto;
+	margin:auto;
+	display:block;
+}
+.img {max-width:100%}
+        #footer {width:auto}
+    @media screen and (max-width:600px) {
+	#avmenu {float:none;width:auto;}
+	#avmenu ul {width:100%}
+	#avmenu img, #avmenu iframe, #avmenu ins, #content ins, ins {
+		display:block!important;
+		margin:auto!important;
+		max-width:100%;
+		overflow:hidden;
+	}
+	#content {margin:10px 0}
+	.announce {margin:auto}
+ 	#header, #footer, #content {margin:0 0 10px}
+	#header h1 {float:none;	width:auto;}
+	* {	max-width:100%}
+	#wrap {overflow:hidden}
+}
+}
+.image img{
+    width: 300px;
+    height: 200px;
+}
+
+.form
+    {
+        box-sizing: border-box;
+      }
+      
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+      }
+      
+      label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+      }
+      p{
+        text-align: justify;
+      }
+      
+      input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+      
+      .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+      }
+      
+      .col-75 {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .col-25, .col-75, input[type=submit] {
+          width: 100%;
+          margin-top: 0;
+        }
+      }
+      </style>
+}
+.field {
+    margin-bottom: 10px;
+  }
+  
+  .field label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: black;
+  }
+  
+  .field input {
+    display: block;
+    min-width: 100%;
+    line-height: 2.5;
+    font-size: 14px;
+    padding: 0 10px;
+    border: 1px solid #B6B6B6;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 800;
+    background-color: #4460AA;
+    color: #fff;
+    border: none;
+    margin: 50px auto;
+    cursor: pointer;
+  }
